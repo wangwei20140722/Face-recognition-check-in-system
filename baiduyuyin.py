@@ -5,9 +5,9 @@ import time
 
 def baidu_voice(voice):
     """ 你的 APPID AK SK """
-    APP_ID = '11750625'
-    API_KEY = 'kVRnUKPWM8ekkilU3af5oark'
-    SECRET_KEY = 'iAW4d4gBGxGDSf9PXNZ5PVfewARB0OGG'
+    APP_ID = '**'
+    API_KEY = '***'
+    SECRET_KEY = '***'
 
     client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
     result  = client.synthesis(voice, 'zh', 1, {
